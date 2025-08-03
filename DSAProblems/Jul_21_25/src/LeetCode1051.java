@@ -1,6 +1,6 @@
 //22/07/2025
 //leetcode 1051 -->height checker
-package Array;
+
 import java.util.Arrays;
 public class LeetCode1051 {
     public static int heightChecker(int[] heights) {
