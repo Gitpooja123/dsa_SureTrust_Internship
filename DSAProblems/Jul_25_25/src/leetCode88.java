@@ -1,6 +1,3 @@
-//using 2 pointer
-package Array;
-
 public class leetCode88 {
     public void MergedArray(int[] nums1, int m, int[] nums2, int n) {
         int p1 = m - 1;
@@ -31,10 +28,5 @@ public class leetCode88 {
             System.out.print(num + " ");
         }
     }
-
-
-
-
-
 
 }

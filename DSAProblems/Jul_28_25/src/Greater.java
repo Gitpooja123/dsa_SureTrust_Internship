@@ -1,7 +1,3 @@
-//22/07/2025
-//First largest and Second largest
-package Array;
-
 public class Greater {
     public static void main(String[] args) {
         int[] arr = {6,8,90,3,67,8,23,50};

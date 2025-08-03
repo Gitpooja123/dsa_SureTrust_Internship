@@ -1,5 +1,6 @@
-package Array;
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.ArrayList;
 public class ArrayListExam {
     public static void main(String[] args) {
         // Step 1: Create a 2D list with values [10], [10], ...
@@ -13,6 +14,4 @@ public class ArrayListExam {
         System.out.println(lst);
 
     }
-
-    }
-
+}

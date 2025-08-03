@@ -1,6 +1,3 @@
-//LeetCode-88
-//Merge sorted Array
-package Array;
 import java.util.Arrays;
 public class MergeSort {
     public int[] merge(int[] nums1, int m, int[] nums2, int n) {

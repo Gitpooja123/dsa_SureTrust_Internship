@@ -1,9 +1,9 @@
 //Optimal Approach (Iterative using nCr logic)
 //Time Complexity: O(n)
 
-package Array;
 import java.util.ArrayList;
 import java.util.List;
+
 public class PascalOptimal {
     public static void main(String[] args) {
 

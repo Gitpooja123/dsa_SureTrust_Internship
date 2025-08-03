@@ -1,12 +1,7 @@
-# 📝 Progress Report: July 28–25
-```java //leetCode 118
 
-package Array;
-
-import java.util.ArrayList;
 import java.util.List;
-
-public class PascalsTriangle {
+import java.util.ArrayList;
+public class ArrayListExample {
     public static void main(String[] args) {
         ArrayList<ArrayList<Integer>> ListName= new ArrayList<>();
         //System.out.println(ListName); //[]
@@ -16,7 +11,7 @@ public class PascalsTriangle {
 
         System.out.println(lst1);
 
-       //ListName.add(lst1); //[[]]
+        //ListName.add(lst1); //[[]]
         System.out.println(ListName);
 
         List<Integer> lst2 = new ArrayList<>();
@@ -25,5 +20,3 @@ public class PascalsTriangle {
 
     }
 }
-
-  

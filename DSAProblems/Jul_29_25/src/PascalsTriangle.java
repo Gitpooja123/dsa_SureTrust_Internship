@@ -1,13 +1,9 @@
-//leetCode-118
-//pascals Triangle
-//Date--29-07-2025
-package Array;
 import java.util.ArrayList;
 import java.util.List;
-public class PascalsTri {
+public class PascalsTriangle {
     public static void main(String[] args) {
 
-       List<List<Integer>> PascalTriangle = new ArrayList<List<Integer>>();
+        List<List<Integer>> PascalTriangle = new ArrayList<List<Integer>>();
 
         List<Integer> firstElement = new ArrayList<>();
         firstElement.add(1);
@@ -26,4 +22,5 @@ public class PascalsTri {
         }
         System.out.println(PascalTriangle);
     }
+
 }
