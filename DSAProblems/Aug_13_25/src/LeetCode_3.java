@@ -11,15 +11,16 @@ public class LeetCode_3 {
             {
                 ch.add(str.charAt(r));
                 r++;
-                max = ch.size(); // update max
-            }
-                ch.remove(r);
+                max = Math.max(max, ch.size());// update max
+            }else {
+                ch.remove(str.charAt(l));
                 l++;
+            }
         }
         return max;
     }
     public static void main(String[] args) {
-        String str = "abcabcbb";
+        String str = "pwwkew";
         System.out.println("Longest substring length: " + lengthOfLongestSubstring(str));
     }
     }
