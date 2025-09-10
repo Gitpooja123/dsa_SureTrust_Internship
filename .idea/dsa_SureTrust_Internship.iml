@@ -27,6 +27,10 @@
       <sourceFolder url="file://$MODULE_DIR$/DSAProblems/Aug_21_25/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DSAProblems/Sep_01_25/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DSAProblems/Sep_03_25/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DSAProblems/Sep_02_25/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DSAProblems/Sep_05_25/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DSAProblems/Sep_09_25/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DSAProblems/Sep_10_25/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

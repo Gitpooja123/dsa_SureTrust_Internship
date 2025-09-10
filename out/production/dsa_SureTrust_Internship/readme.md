@@ -1,56 +1,32 @@
-# LeetCode 187 - Repeated DNA Sequences (Dry Run)
+#  SQL Commands
 
-### Problem
+## DDL (Data Definition Language)
 
-We need to find all 10-letter-long DNA sequences that occur more than
-once in a string.
+These commands define or change the structure of a database (tables,
+schema, etc.).
 
-------------------------------------------------------------------------
+### Commands:
 
-### Dry Run
-
-**Start** - dnaSet = {} - retDnaSet = {}
-
-**i = 0;** condition `0+9 < 32` → True\
-Sub = `s.substring(0, 10)` = `"AAAAACCCCC"`\
-`dnaSet.contains("AAAAACCCCC")` → False\
-Add `"AAAAACCCCC"` into dnaSet\
-dnaSet = {"AAAAACCCCC"}
+-   **CREATE** → Create database objects (tables, schema, views).
+-   **ALTER** → Modify structure of an existing object.
+-   **DROP** → Delete an object (table, database, etc.).
+-   **TRUNCATE** → Remove all rows from a table (faster than DELETE).
+-   **RENAME** → Rename a database object (table, column, etc.).
+-   **COMMENT** → Add comments to database objects.
 
 ------------------------------------------------------------------------
 
-**i = 1;** condition `1+9 < 32` → True\
-Sub = `s.substring(1, 11)` = `"AAAACCCCCA"`\
-`dnaSet.contains("AAAACCCCCA")` → False\
-dnaSet = {"AAAAACCCCC", "AAAACCCCCA"}
+## DML (Data Manipulation Language)
+
+ These commands manipulate the actual data stored in the tables.
+
+### Commands:
+
+-   **SELECT** → Retrieve data.
+-   **INSERT** → Add new records.
+-   **UPDATE** → Modify existing records.
+-   **DELETE** → Remove specific records.
+-   **MERGE** (in some DBs) → Insert or update depending on condition.
 
 ------------------------------------------------------------------------
 
-**i = 2;** condition `2+9 < 32` → True\
-Sub = `s.substring(2, 12)` = `"AAACCCCCAA"`\
-`dnaSet.contains("AAACCCCCAA")` → False\
-dnaSet = {"AAAAACCCCC", "AAAACCCCCA", "AAACCCCCAA"}
-
-... (loop continues with new substrings) ...
-
-------------------------------------------------------------------------
-
-**i = 10;** condition `10+9 < 32` → True\
-Sub = `s.substring(10, 20)` = `"AAAAACCCCC"`\
-`dnaSet.contains("AAAAACCCCC")` → True → repeat found\
-retDnaSet = {"AAAAACCCCC"}
-
-------------------------------------------------------------------------
-
-Later, when substring `"CCCCCAAAAA"` repeats:\
-retDnaSet = {"AAAAACCCCC", "CCCCCAAAAA"}
-
-------------------------------------------------------------------------
-
-###  Final Answer
-
-``` text
-["AAAAACCCCC", "CCCCCAAAAA"]
-```
-
--------------------------------------------------------------------------
